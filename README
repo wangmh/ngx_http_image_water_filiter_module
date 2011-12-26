@@ -1,0 +1,35 @@
+config example
+
+# location /img/ {
+#    image_water   /home/saint/water.png;
+#    image_buffer_size 1M; 
+# }
+
+
+image_water 
+
+	Syntax: image_water path
+
+	Default: none
+
+	Context: location
+
+	The path to load the water_image
+
+
+image_buffer_size
+
+	Syntax: image_buffer_size size
+	
+	Default: 1M
+	
+	Context: location
+
+	Sets the maximux size for reading the image
+ 
+
+
+
+TODO:
+  #config the water image position
+ 
